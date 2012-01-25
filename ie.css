@@ -1,0 +1,7 @@
+			body {background-color:#848684; color:#a45209;}
+			#content{width:600px;}
+			.main {float:left;width:180px;height:150px;margin:-15px -15px -90px -15px;display: block}
+			.btext {position:relative;top:-140px;font-size:150%;width:162px;text-align: center;text-decoration:none;padding-left:40px;word-wrap: break-word;display: block}
+			a:link{text-decoration:none; color:#a45209;}
+			.other {float:left;margin-top:150px; margin-left:-480px;}
+			.bor{border:none;}
