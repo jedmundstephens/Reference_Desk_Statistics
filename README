@@ -1,1 +1,11 @@
-This is a first test at using github for code distribution. This readme will be updated later with relevent information
+This is an application intended to simplify the collection and use of statistics at a library reference desk. It could also be used, with some modification, to track other kinds os service point statistics.
+
+I have included 2 external scripts - one that creates a calendar and another that is used for graphing. The calendar is not necessary and can be omitted with some small modifications. The graphing library is necessary for the results page to function as is. However, other graphing libraries can certainly be used. The first graph on the results page is one I created myself before finding the very useful library here: http://www.ebrueggeman.com/phpgraphlib
+
+One thing that is necessary that is not included is a login page. There is a call at the top of index.php for the file password_protect.php. For this I used the login page found here: http://www.zubrag.com/scripts/password-protect.php
+
+Installation:
+Assuming that PHP/MySQL are already available...
+Run the questions.sql file in MySQL. This was created via PHPMyAdmin and can probably most easily be used in the same.
+Create a user and password to have access to the created database, and grant read/write priviliges to that user.
+In the index.php and results.php file put the database connector information in place.
