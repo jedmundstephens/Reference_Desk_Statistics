@@ -9,3 +9,8 @@ Assuming that PHP/MySQL are already available...
 Run the questions.sql file in MySQL. This was created via PHPMyAdmin and can probably most easily be used in the same.
 Create a user and password to have access to the created database, and grant read/write priviliges to that user.
 In the index.php and results.php file put the database connector information in place.
+Adjust the index.php file to accomodate whatever login system you are using, or use a simple one such as the one mentioned above.
+
+You can just plop all the files down into a directory on your server, and it should be good to go after that.
+
+I have used six categories of questions. You can easily add or subtract from that number by modifying the database, and the index.php and results.php files. However, the graphing library does not handle more than 6 categories.
